@@ -3,6 +3,7 @@
   box-sizing: border-box;
   border-radius: 50%;
   background: #ececec;
+  padding: 2px;
   --xxsmall: 25px;
   --xsmall: 35px;
   --small: 50px;
@@ -10,10 +11,13 @@
   --large: 100px;
   --xlarge: 115px;
   --xxlarge: 125px;
+  --image-border-colour: #008fee;
 }
 
 img {
-  width: 50%;
+  width: 100%;
+  border: 1px solid var(--image-border-colour);
+  border-radius: 50%;
 }
 
 .defaultProfilePic {
@@ -55,4 +59,8 @@ img {
 .profilePic.xxlarge {
   width: var(--xxlarge);
   height: var(--xxlarge);
+}
+
+.defaultProfilePic img {
+  width: 50%;
 }
