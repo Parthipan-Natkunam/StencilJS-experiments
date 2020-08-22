@@ -1,0 +1,58 @@
+:host {
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: #ececec;
+  --xxsmall: 25px;
+  --xsmall: 35px;
+  --small: 50px;
+  --medium: 75px;
+  --large: 100px;
+  --xlarge: 115px;
+  --xxlarge: 125px;
+}
+
+img {
+  width: 50%;
+}
+
+.defaultProfilePic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: var(--medium);
+  height: var(--medium);
+}
+
+.profilePic.xxsmall {
+  width: var(--xxsmall);
+  height: var(--xxsmall);
+}
+
+.profilePic.xsmall {
+  width: var(--xsmall);
+  height: var(--xsmall);
+}
+
+.profilePic.small {
+  width: var(--small);
+  height: var(--small);
+}
+
+.profilePic.medium {
+  width: var(--medium);
+  height: var(--medium);
+}
+
+.profilePic.large {
+  width: var(--large);
+  height: var(--large);
+}
+.profilePic.xlarge {
+  width: var(--xlarge);
+  height: var(--xlarge);
+}
+.profilePic.xxlarge {
+  width: var(--xxlarge);
+  height: var(--xxlarge);
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   viewBox="0 0 13 13"
+>
+  <g
+     transform="translate(43.391666,404.34947)"
+     id="layer1">
+    <g
+       id="g874">
+      <path
+         d="m -43.391666,-404.28333 h 13.229167 v 13.22917 h -13.229167 z"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:none;stroke-width:0.014;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect833" />
+      <g
+         style="fill:#000000;fill-opacity:1;stroke:none"
+         transform="matrix(1.2495233,0,0,1.2495233,9.1767395,97.588609)"
+         id="g867">
+        <path
+           id="path835"
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.06159;stroke-linecap:round"
+           d="m -34.7431,-399.66968 a 2.0339842,2.0339842 0 0 1 -2.033984,2.03399 2.0339842,2.0339842 0 0 1 -2.033985,-2.03399 2.0339842,2.0339842 0 0 1 2.033985,-2.03398 2.0339842,2.0339842 0 0 1 2.033984,2.03398 z" />
+        <path
+           id="circle845"
+           style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.61396;stroke-linecap:round"
+           d="m -33.193576,-391.15531 -7.05702,0.0552 c 0,0 -0.693489,-5.02486 0.232239,-5.97955 0.925728,-0.95469 1.353236,0.10539 1.989977,-0.13876 0.86294,-0.33088 2.174891,-0.44352 2.957458,0.0578 0.283613,0.1817 0.61173,-0.79149 1.492823,0.0794 0.881093,0.87089 0.384523,5.92582 0.384523,5.92582 z"/>
+      </g>
+    </g>
+  </g>
+</svg>
