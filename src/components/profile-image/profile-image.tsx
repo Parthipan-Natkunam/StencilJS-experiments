@@ -14,13 +14,9 @@ export class MyComponent {
 
   render() {
     const classNames = `profilePic ${this.size ? this.size : null}`;
-    return this.src ? (
-      <div class={classNames}>
-        <img src={this.src} alt={this.alt} />
-      </div>
-    ) : (
-      <div class={`defaultProfilePic ${classNames}`}>
-        <img src={getAssetPath(`./assets/${this.defaultImg}`)} alt="default profile picture" />
+    return (
+      <div class={this.src ? classNames : `defaultProfilePic ${classNames}`}>
+        <img src={this.src || getAssetPath(`./assets/${this.defaultImg}`)} alt={this.alt || 'profile picture'} />
       </div>
     );
   }

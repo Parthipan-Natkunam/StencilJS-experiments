@@ -20,6 +20,10 @@ img {
   border-radius: 50%;
 }
 
+.defaultProfilePic img {
+  border: none;
+}
+
 .defaultProfilePic {
   display: flex;
   align-items: center;
